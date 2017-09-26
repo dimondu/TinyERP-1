@@ -1,0 +1,13 @@
+packages
+obj
+bin
+published
+client/node_modules/
+client/src/**/*.js.map
+client/src/**/*.js
+!client/resources
+!client/themes
+client/dist/
+api/.vs/config/applicationhost.config
+**/logs/log.txt
+deployment/
