@@ -1,3 +1,4 @@
+!api/packages/Selenium
 packages
 obj
 bin
@@ -11,3 +12,5 @@ client/dist/
 api/.vs/config/applicationhost.config
 **/logs/log.txt
 deployment/
+!api/packages/Ziplib
+!api/packages/EPPlus
