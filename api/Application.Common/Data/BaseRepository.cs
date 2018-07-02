@@ -1,4 +1,6 @@
-﻿namespace App.Common.Data
+﻿using System;
+
+namespace App.Common.Data
 {
     using App.Common.Data.MSSQL;
     using App.Common.Mapping;
@@ -38,7 +40,14 @@
 
         public virtual void Add(TEntity item)
         {
-            this.DbSet.Add(item);
+            try
+            {
+                this.DbSet.Add(item);
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+            }
         }
 
         public virtual void Delete(TId id)

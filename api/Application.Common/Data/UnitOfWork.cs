@@ -23,7 +23,14 @@
 
         public void Dispose()
         {
-            GC.SuppressFinalize(this);
+            try
+            {
+                GC.SuppressFinalize(this);
+            }
+            catch (Exception exc)
+            {
+
+            }
         }
     }
 }

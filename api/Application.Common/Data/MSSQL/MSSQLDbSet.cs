@@ -36,7 +36,14 @@
 
         public override void Add(TEntity item)
         {
-            this.DbSet.Add(item);
+            try
+            {
+                this.DbSet.Add(item);
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e);
+            }
         }
 
         public override void Delete(TId id)

@@ -23,7 +23,9 @@
                 case RepositoryType.MongoDb:
                     return new App.Common.Data.MongoDB.MongoDbContext(option.IOMode, connectionName: option.ConnectionStringName);
                 default:
-                    throw new InvalidOperationException("common.errors.unsupportedTyeOdDbContext");
+                    //throw new InvalidOperationException("common.errors.unsupportedTyeOdDbContext");
+
+                    return this.CreateDefaultDbContext(option);
             }
         }
 

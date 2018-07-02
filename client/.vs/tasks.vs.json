@@ -1,0 +1,15 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskName": "задача-gulpfile",
+      "appliesTo": "gulpfile.js",
+      "type": "launch"
+    },
+    {
+      "taskName": "задача-",
+      "appliesTo": ".idea/",
+      "type": "launch"
+    }
+  ]
+}

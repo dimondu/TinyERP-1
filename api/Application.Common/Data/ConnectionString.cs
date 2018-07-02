@@ -1,4 +1,6 @@
-﻿namespace App.Common.Data
+﻿using App.Common.Configurations;
+
+namespace App.Common.Data
 {
     using System.Linq;
 
@@ -18,7 +20,16 @@
         public ConnectionString(RepositoryType dbtype, string connectionName = "")
         {
             System.Console.WriteLine(Configurations.Configuration.Current.Databases.Count);
-            App.Common.Configurations.ConnectionStringElement connectionString = Configurations.Configuration.Current.Databases.ToList().Where(item => item.DbType == dbtype && ((string.IsNullOrWhiteSpace(connectionName) && item.IsDefault) || item.Name == connectionName)).FirstOrDefault();
+            ConnectionStringElement connectionString = null;
+            foreach (var item in Configuration.Current.Databases.ToList())
+            {
+                if (item.DbType == dbtype && (string.IsNullOrWhiteSpace(connectionName) && item.IsDefault || item.Name == connectionName))
+                {
+                    connectionString = item;
+                    break;
+                }
+            }
+
             if (string.IsNullOrWhiteSpace(connectionName) && connectionString == null)
             {
                 throw new App.Common.Validation.ValidationException("CommonMessage.ConnectionStringNoDefaultItem");

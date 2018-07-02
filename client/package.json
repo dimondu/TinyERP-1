@@ -50,6 +50,7 @@
     "gulp-useref": "^3.1.2",
     "jquery": "^3.1.1",
     "jsrender": "^0.9.75",
+    "lite-server": "^2.4.0",
     "mkdirp": "^0.5.1",
     "reflect-metadata": "^0.1.9",
     "run-sequence": "^1.2.2",

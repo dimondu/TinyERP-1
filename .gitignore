@@ -14,3 +14,5 @@ api/.vs/config/applicationhost.config
 deployment/
 !api/packages/Ziplib
 !api/packages/EPPlus
+/.vs
+/api/.vs/Application

@@ -95,75 +95,27 @@
     public class ConnectionStringElement : ConfigurationElement
     {
         [ConfigurationProperty("name", IsKey = true, IsRequired = true)]
-        public string Name
-        {
-            get
-            {
-                return (string)this["name"];
-            }
-        }
+        public string Name => (string)this["name"];
 
         [ConfigurationProperty("database")]
-        public string Database
-        {
-            get
-            {
-                return (string)this["database"];
-            }
-        }
+        public string Database => (string)this["database"];
 
         [ConfigurationProperty("server")]
-        public string Server
-        {
-            get
-            {
-                return (string)this["server"];
-            }
-        }
+        public string Server => (string)this["server"];
 
         [ConfigurationProperty("port")]
-        public int Port
-        {
-            get
-            {
-                return (int)this["port"];
-            }
-        }
+        public int Port => (int)this["port"];
 
         [ConfigurationProperty("userName")]
-        public string UserName
-        {
-            get
-            {
-                return (string)this["userName"];
-            }
-        }
+        public string UserName => (string)this["userName"];
 
         [ConfigurationProperty("password")]
-        public string Password
-        {
-            get
-            {
-                return (string)this["password"];
-            }
-        }
+        public string Password => (string)this["password"];
 
         [ConfigurationProperty("dbType")]
-        public RepositoryType DbType
-        {
-            get
-            {
-                return (RepositoryType)this["dbType"];
-            }
-        }
+        public RepositoryType DbType => (RepositoryType)this["dbType"];
 
         [ConfigurationProperty("default")]
-        public bool IsDefault
-        {
-            get
-            {
-                return (bool)this["default"];
-            }
-        }
+        public bool IsDefault => (bool)this["default"];
     }
 }

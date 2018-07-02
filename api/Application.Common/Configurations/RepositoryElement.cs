@@ -17,7 +17,8 @@
         {
             get
             {
-                return (string)this["defaultConnectionStringName"];
+                var defaultConnectionStringName = (string)this["defaultConnectionStringName"];
+                return string.IsNullOrEmpty(defaultConnectionStringName)? "DefaultConnection": defaultConnectionStringName;
             }
         }
     }

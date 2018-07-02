@@ -14,16 +14,18 @@
         public void Handle(CreateUserCommand command)
         {
             this.ValidateCreateUserRequest(command);
-            using (IUnitOfWork uow = this.CreateUnitOfWork<User>())
+            using (var uow = this.CreateUnitOfWork<User>())
             {
-                IUserRepository repository = IoC.Container.Resolve<IUserRepository>(uow);
-                User user = new User();
-                user.FirstName = command.FirstName;
-                user.LastName = command.LastName;
-                user.Email = command.Email;
-                user.UserName = command.UserName;
-                user.Pwd = EncodeHelper.EncodePassword(command.Pwd);
-                foreach (Role role in command.Roles)
+                var repository = IoC.Container.Resolve<IUserRepository>(uow);
+                var user = new User
+                {
+                    FirstName = command.FirstName,
+                    LastName = command.LastName,
+                    Email = command.Email,
+                    UserName = command.UserName,
+                    Pwd = EncodeHelper.EncodePassword(command.Pwd)
+                };
+                foreach (var role in command.Roles)
                 {
                     user.AddRole(role);
                 }

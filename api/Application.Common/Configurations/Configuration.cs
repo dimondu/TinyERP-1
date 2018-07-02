@@ -21,106 +21,41 @@
         }
 
         [ConfigurationProperty("settings")]
-        public App.Common.Configurations.SettingElement Setting
-        {
-            get
-            {
-                return (App.Common.Configurations.SettingElement)this["settings"];
-            }
-        }
+        public SettingElement Setting => (SettingElement)this["settings"];
+
         [ConfigurationProperty("messageBus")]
-        public MessageBusElement MessageBus
-        {
-            get
-            {
-                return (MessageBusElement)this["messageBus"];
-            }
-        }
+        public MessageBusElement MessageBus => (MessageBusElement)this["messageBus"];
 
         [ConfigurationProperty("authentication")]
-        public AuthenticationElement Authentication
-        {
-            get
-            {
-                return (AuthenticationElement)this["authentication"];
-            }
-        }
+        public AuthenticationElement Authentication => (AuthenticationElement)this["authentication"];
 
         [ConfigurationProperty("paging")]
-        public PagingElement Paging
-        {
-            get
-            {
-                return (PagingElement)this["paging"];
-            }
-        }
+        public PagingElement Paging => (PagingElement)this["paging"];
 
         [ConfigurationProperty("repository")]
-        public RepositoryElement Repository
-        {
-            get
-            {
-                return (RepositoryElement)this["repository"];
-            }
-        }
+        public RepositoryElement Repository => (RepositoryElement)this["repository"];
 
         [ConfigurationProperty("databases", IsDefaultCollection = false)]
         [ConfigurationCollection(typeof(DatabasesElement),
             AddItemName = "add",
             ClearItemsName = "clear",
             RemoveItemName = "remove")]
-        public DatabasesElement Databases
-        {
-            get
-            {
-                return (DatabasesElement)this["databases"];
-            }
-        }
+        public DatabasesElement Databases => (DatabasesElement)this["databases"];
 
         [ConfigurationProperty("localization")]
-        public LocalizationElement Localization
-        {
-            get
-            {
-                return (LocalizationElement)this["localization"];
-            }
-        }
+        public LocalizationElement Localization => (LocalizationElement)this["localization"];
 
         [ConfigurationProperty("uitest")]
-        public UITestElement UITest
-        {
-            get
-            {
-                return (UITestElement)this["uitest"];
-            }
-        }
+        public UITestElement UITest => (UITestElement)this["uitest"];
 
         [ConfigurationProperty("mail")]
-        public MailElement Mail
-        {
-            get
-            {
-                return (MailElement)this["mail"];
-            }
-        }
+        public MailElement Mail => (MailElement)this["mail"];
 
         [ConfigurationProperty("folder")]
-        public FolderElement Folder
-        {
-            get
-            {
-                return (FolderElement)this["folder"];
-            }
-        }
+        public FolderElement Folder => (FolderElement)this["folder"];
 
         [ConfigurationProperty("integration-test")]
-        public IntegrationTestElement IntegrationTest
-        {
-            get
-            {
-                return (IntegrationTestElement)this["integration-test"];
-            }
-        }
+        public IntegrationTestElement IntegrationTest => (IntegrationTestElement)this["integration-test"];
 
 
         [ConfigurationProperty("commandHandlerSettings", IsDefaultCollection = false)]
@@ -128,38 +63,20 @@
             AddItemName = "add",
             ClearItemsName = "clear",
             RemoveItemName = "remove")]
-        public CommandHandlerSettingsElement CommandHandlerSettings
-        {
-            get
-            {
-                return (CommandHandlerSettingsElement)this["commandHandlerSettings"];
-            }
-        }
+        public CommandHandlerSettingsElement CommandHandlerSettings => (CommandHandlerSettingsElement)this["commandHandlerSettings"];
 
         [ConfigurationProperty("eventHandlers", IsDefaultCollection = false)]
         [ConfigurationCollection(typeof(EventHandlersElement),
             AddItemName = "add",
             ClearItemsName = "clear",
             RemoveItemName = "remove")]
-        public EventHandlersElement EventHandlers
-        {
-            get
-            {
-                return (EventHandlersElement)this["eventHandlers"];
-            }
-        }
+        public EventHandlersElement EventHandlers => (EventHandlersElement)this["eventHandlers"];
 
         [ConfigurationProperty("aggregates", IsDefaultCollection = false)]
         [ConfigurationCollection(typeof(AggregatesElement),
             AddItemName = "add",
             ClearItemsName = "clear",
             RemoveItemName = "remove")]
-        public AggregatesElement Aggregates
-        {
-            get
-            {
-                return (AggregatesElement)this["aggregates"];
-            }
-        }
+        public AggregatesElement Aggregates => (AggregatesElement)this["aggregates"];
     }
 }

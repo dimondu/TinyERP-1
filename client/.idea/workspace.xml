@@ -1,0 +1,545 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ce7b7fe8-1ab9-4251-9b09-9d9e6b182b45" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="contentTypes.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/contentTypes.json">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="permission_0.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/permission_0.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
+    <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <gulpfiles>
+      <GulpfileState>
+        <gulpfile-path>$PROJECT_DIR$/gulpfile.js</gulpfile-path>
+        <tasks>
+          <GulpTaskState>
+            <task-name>build</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>bundle-module</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>copy-assets</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <dependencies>
+              <dependency value="clean-build" />
+              <dependency value="prepare-folder" />
+            </dependencies>
+            <task-name>clean</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>prepare-folder</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>clean-build</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <task-name>compile</task-name>
+          </GulpTaskState>
+          <GulpTaskState>
+            <dependencies>
+              <dependency value="build" />
+            </dependencies>
+            <task-name>default</task-name>
+          </GulpTaskState>
+        </tasks>
+      </GulpfileState>
+    </gulpfiles>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/package.json" />
+      <path value="$PROJECT_DIR$/src/themes/default/vendors/Chart.js/package.json" />
+      <path value="$PROJECT_DIR$/src/themes/default/vendors/DateJS/package.json" />
+      <path value="$PROJECT_DIR$/src/themes/default/vendors/Flot/package.json" />
+      <path value="$PROJECT_DIR$/src/themes/default/vendors/animate.css/package.json" />
+      <path value="$PROJECT_DIR$/src/themes/default/vendors/autosize/package.json" />
+      <path value="$PROJECT_DIR$/src/themes/default/vendors/bootstrap-daterangepicker/package.json" />
+      <path value="$PROJECT_DIR$/src/themes/default/vendors/bootstrap-progressbar/package.json" />
+      <path value="$PROJECT_DIR$/src/themes/default/vendors/bootstrap-wysiwyg/package.json" />
+      <path value="$PROJECT_DIR$/src/themes/default/vendors/bootstrap/package.json" />
+      <path value="$PROJECT_DIR$/src/themes/default/vendors/cropper/package.json" />
+      <path value="$PROJECT_DIR$/src/themes/default/vendors/echarts/package.json" />
+      <path value="$PROJECT_DIR$/src/themes/default/vendors/eve/package.json" />
+      <path value="$PROJECT_DIR$/src/themes/default/vendors/flot-spline/package.json" />
+      <path value="$PROJECT_DIR$/src/themes/default/vendors/ion.rangeSlider/package.json" />
+      <path value="$PROJECT_DIR$/src/themes/default/vendors/jquery-knob/package.json" />
+      <path value="$PROJECT_DIR$/src/themes/default/vendors/jquery.easy-pie-chart/package.json" />
+      <path value="$PROJECT_DIR$/src/themes/default/vendors/jqvmap/package.json" />
+      <path value="$PROJECT_DIR$/src/themes/default/vendors/jszip/package.json" />
+      <path value="$PROJECT_DIR$/src/themes/default/vendors/morris.js/package.json" />
+      <path value="$PROJECT_DIR$/src/themes/default/vendors/select2/package.json" />
+      <path value="$PROJECT_DIR$/src/themes/default/vendors/starrr/package.json" />
+      <path value="$PROJECT_DIR$/src/themes/default/vendors/switchery/package.json" />
+      <path value="$PROJECT_DIR$/src/themes/default/vendors/transitionize/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1015" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js.buildTools.gulp.gulp_package_dir" value="$PROJECT_DIR$/node_modules/gulp" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="npm.lite">
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+    </configuration>
+    <configuration name="clean" type="js.build_tools.gulp" factoryName="Gulp.js" temporary="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile>$PROJECT_DIR$/gulpfile.js</gulpfile>
+      <tasks>
+        <task>clean</task>
+      </tasks>
+      <arguments />
+      <envs />
+    </configuration>
+    <configuration name="compile" type="js.build_tools.gulp" factoryName="Gulp.js" temporary="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile>$PROJECT_DIR$/gulpfile.js</gulpfile>
+      <tasks>
+        <task>compile</task>
+      </tasks>
+      <arguments />
+      <envs />
+    </configuration>
+    <configuration name="copy-assets" type="js.build_tools.gulp" factoryName="Gulp.js" temporary="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile>$PROJECT_DIR$/gulpfile.js</gulpfile>
+      <tasks>
+        <task>copy-assets</task>
+      </tasks>
+      <arguments />
+      <envs />
+    </configuration>
+    <configuration name="lite" type="js.build_tools.npm" factoryName="npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="lite" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" factoryName="npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+    </configuration>
+    <list>
+      <item itemvalue="Gulp.js.clean" />
+      <item itemvalue="Gulp.js.compile" />
+      <item itemvalue="Gulp.js.copy-assets" />
+      <item itemvalue="npm.start" />
+      <item itemvalue="npm.lite" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start" />
+        <item itemvalue="npm.lite" />
+        <item itemvalue="Gulp.js.copy-assets" />
+        <item itemvalue="Gulp.js.compile" />
+        <item itemvalue="Gulp.js.clean" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ce7b7fe8-1ab9-4251-9b09-9d9e6b182b45" name="Default" comment="" />
+      <created>1530532395693</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1530532395693</updated>
+      <workItem from="1530532397277" duration="1919000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1919000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1015" extended-state="6" />
+    <layout>
+      <window_info id="Gulp" sideWeight="0.5008726" side_tool="true" weight="0.24973656" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4991708" visible="true" weight="0.24973656" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.293911" />
+      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info id="npm" sideWeight="0.50082916" side_tool="true" visible="true" weight="0.24973656" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/src/modules/common/services/storages/istorage.js.map" />
+        <option value="$PROJECT_DIR$/src/modules/common/services/storages/istorage.js" />
+        <option value="$PROJECT_DIR$/src/modules/common/services/storages/sessionStorage.js" />
+        <option value="$PROJECT_DIR$/src/modules/common/services/storages/sessionStorage.js.map" />
+        <option value="$PROJECT_DIR$/src/modules/common/services/cache/icacheService.js" />
+        <option value="$PROJECT_DIR$/src/modules/common/services/cache/cacheService.js" />
+        <option value="$PROJECT_DIR$/src/modules/common/services/cache/cacheService.js.map" />
+        <option value="$PROJECT_DIR$/src/modules/common/services/cache/icacheService.js.map" />
+        <option value="$PROJECT_DIR$/src/modules/common/services/logger/ilogger.js.map" />
+        <option value="$PROJECT_DIR$/src/modules/common/services/logger/consoleLogger.js.map" />
+        <option value="$PROJECT_DIR$/src/modules/common/services/logger/ilogger.js" />
+        <option value="$PROJECT_DIR$/src/modules/common/services/logger/consoleLogger.js" />
+        <option value="$PROJECT_DIR$/src/modules/common/components/form/formDefaultButton.js.map" />
+        <option value="$PROJECT_DIR$/src/modules/common/components/form/formPrimaryButton.js.map" />
+        <option value="$PROJECT_DIR$/src/modules/common/components/form/formTextInput.js.map" />
+        <option value="$PROJECT_DIR$/src/modules/common/components/form/formTextInput.js" />
+        <option value="$PROJECT_DIR$/src/modules/common/components/form/formDefaultButton.js" />
+        <option value="$PROJECT_DIR$/src/modules/common/components/form/formTextArea.js" />
+        <option value="$PROJECT_DIR$/src/modules/common/components/form/formDropdownButton.js" />
+        <option value="$PROJECT_DIR$/src/modules/common/components/form/formDropdownButton.js.map" />
+        <option value="$PROJECT_DIR$/src/modules/common/components/form/formButton.js" />
+        <option value="$PROJECT_DIR$/src/modules/common/components/form/formInput.js.map" />
+        <option value="$PROJECT_DIR$/src/modules/common/components/form/horizontalForm.js" />
+        <option value="$PROJECT_DIR$/src/modules/common/components/form/formButton.js.map" />
+        <option value="$PROJECT_DIR$/src/modules/common/components/form/formInput.js" />
+        <option value="$PROJECT_DIR$/src/modules/common/components/form/formTextArea.js.map" />
+        <option value="$PROJECT_DIR$/src/modules/common/components/form/horizontalForm.js.map" />
+        <option value="$PROJECT_DIR$/src/modules/common/components/form/formPrimaryButton.js" />
+        <option value="$PROJECT_DIR$/src/modules/common/components/grid/gridModel.js" />
+        <option value="$PROJECT_DIR$/src/modules/common/components/grid/grid.js" />
+        <option value="$PROJECT_DIR$/src/modules/common/components/grid/gridModel.js.map" />
+        <option value="$PROJECT_DIR$/src/modules/common/components/grid/grid.js.map" />
+        <option value="$PROJECT_DIR$/src/modules/common/components/page/pageActions.js" />
+        <option value="$PROJECT_DIR$/src/modules/common/components/page/pageActions.js.map" />
+        <option value="$PROJECT_DIR$/src/modules/common/components/page/pageActionsModel.js.map" />
+        <option value="$PROJECT_DIR$/src/modules/common/components/page/pageActionsModel.js" />
+        <option value="$PROJECT_DIR$/src/modules/common/components/page/page.js.map" />
+        <option value="$PROJECT_DIR$/src/modules/common/components/page/page.js" />
+        <option value="$PROJECT_DIR$/src/modules/setting/contentType/contentTypes.js" />
+        <option value="$PROJECT_DIR$/src/modules/setting/contentType/contentTypesModel.js" />
+        <option value="$PROJECT_DIR$/src/modules/setting/contentType/addOrUpdateContentType.js.map" />
+        <option value="$PROJECT_DIR$/src/modules/setting/contentType/addOrUpdateContentTypeModel.js" />
+        <option value="$PROJECT_DIR$/src/modules/setting/contentType/addOrUpdateContentTypeModel.js.map" />
+        <option value="$PROJECT_DIR$/src/modules/setting/contentType/contentTypesModel.js.map" />
+        <option value="$PROJECT_DIR$/src/modules/setting/contentType/addOrUpdateContentType.js" />
+        <option value="$PROJECT_DIR$/src/modules/setting/contentType/contentTypes.js.map" />
+        <option value="$PROJECT_DIR$/src/modules/setting/_share/services/isettingService.js" />
+        <option value="$PROJECT_DIR$/src/modules/setting/_share/services/settingService.js.map" />
+        <option value="$PROJECT_DIR$/src/modules/setting/_share/services/settingService.js" />
+        <option value="$PROJECT_DIR$/src/modules/setting/_share/services/isettingService.js.map" />
+        <option value="$PROJECT_DIR$/src/modules/setting/_share/config/ioc.js" />
+        <option value="$PROJECT_DIR$/src/modules/setting/_share/config/route.js" />
+        <option value="$PROJECT_DIR$/src/modules/setting/_share/config/route.js.map" />
+        <option value="$PROJECT_DIR$/src/modules/setting/_share/config/ioc.js.map" />
+        <option value="$PROJECT_DIR$/src/modules/security/permission/permissionsModel.js" />
+        <option value="$PROJECT_DIR$/src/modules/security/permission/addOrUpdatePermissionModel.js.map" />
+        <option value="$PROJECT_DIR$/src/modules/security/permission/addOrUpdatePermission.js" />
+        <option value="$PROJECT_DIR$/src/modules/security/permission/permissions.js.map" />
+        <option value="$PROJECT_DIR$/src/modules/security/permission/permissions.js" />
+        <option value="$PROJECT_DIR$/src/modules/security/permission/addOrUpdatePermission.js.map" />
+        <option value="$PROJECT_DIR$/src/modules/security/permission/addOrUpdatePermissionModel.js" />
+        <option value="$PROJECT_DIR$/src/modules/security/permission/permissionsModel.js.map" />
+        <option value="$PROJECT_DIR$/src/modules/security/_share/services/ipermissionService.js" />
+        <option value="$PROJECT_DIR$/src/modules/security/_share/services/permissionService.js" />
+        <option value="$PROJECT_DIR$/src/modules/security/_share/services/permissionService.js.map" />
+        <option value="$PROJECT_DIR$/src/modules/security/_share/services/ipermissionService.js.map" />
+        <option value="$PROJECT_DIR$/src/modules/security/_share/config/ioc.js" />
+        <option value="$PROJECT_DIR$/src/modules/security/_share/config/route.js" />
+        <option value="$PROJECT_DIR$/src/modules/security/_share/config/route.js.map" />
+        <option value="$PROJECT_DIR$/src/modules/security/_share/config/ioc.js.map" />
+        <option value="$PROJECT_DIR$/src/modules/orderManagement/order/ordersModel.js.map" />
+        <option value="$PROJECT_DIR$/src/modules/orderManagement/order/orders.js.map" />
+        <option value="$PROJECT_DIR$/src/modules/orderManagement/order/orders.js" />
+        <option value="$PROJECT_DIR$/src/modules/orderManagement/order/ordersModel.js" />
+        <option value="$PROJECT_DIR$/src/modules/orderManagement/_share/services/iorderService.js" />
+        <option value="$PROJECT_DIR$/src/modules/orderManagement/_share/services/orderService.js" />
+        <option value="$PROJECT_DIR$/src/modules/orderManagement/_share/services/orderService.js.map" />
+        <option value="$PROJECT_DIR$/src/modules/orderManagement/_share/services/iorderService.js.map" />
+        <option value="$PROJECT_DIR$/src/modules/orderManagement/_share/config/ioc.js" />
+        <option value="$PROJECT_DIR$/src/modules/orderManagement/_share/config/route.js" />
+        <option value="$PROJECT_DIR$/src/modules/orderManagement/_share/config/route.js.map" />
+        <option value="$PROJECT_DIR$/src/modules/orderManagement/_share/config/ioc.js.map" />
+        <option value="$PROJECT_DIR$/src/main.js.map" />
+        <option value="$PROJECT_DIR$/src/main.js" />
+        <option value="$PROJECT_DIR$/src/application.js" />
+        <option value="$PROJECT_DIR$/src/application.js.map" />
+        <option value="$PROJECT_DIR$/src/config/ioc.js.map" />
+        <option value="$PROJECT_DIR$/src/config/modules.js" />
+        <option value="$PROJECT_DIR$/src/config/ioc.js" />
+        <option value="$PROJECT_DIR$/src/config/appConfig.js.map" />
+        <option value="$PROJECT_DIR$/src/config/modules.js.map" />
+        <option value="$PROJECT_DIR$/src/config/menus.js" />
+        <option value="$PROJECT_DIR$/src/config/appConfig.js" />
+        <option value="$PROJECT_DIR$/src/config/menus.js.map" />
+        <option value="$PROJECT_DIR$/src/themes/default/defaultLayout.js.map" />
+        <option value="$PROJECT_DIR$/src/themes/default/defaultLayout.js" />
+        <option value="$PROJECT_DIR$/src/themes/default/defaultLayoutModule.js.map" />
+        <option value="$PROJECT_DIR$/src/themes/default/index.js.map" />
+        <option value="$PROJECT_DIR$/src/themes/default/defaultLayoutModule.js" />
+        <option value="$PROJECT_DIR$/src/themes/default/index.js" />
+        <option value="$PROJECT_DIR$/src/themes/default/components/mainMenu.js" />
+        <option value="$PROJECT_DIR$/src/themes/default/components/mainMenu.js.map" />
+        <option value="$PROJECT_DIR$/src/modules/security/index.js.map" />
+        <option value="$PROJECT_DIR$/src/modules/security/index.js" />
+        <option value="$PROJECT_DIR$/src/modules/security/securityRoute.js.map" />
+        <option value="$PROJECT_DIR$/src/modules/security/securityModule.js.map" />
+        <option value="$PROJECT_DIR$/src/modules/security/securityModule.js" />
+        <option value="$PROJECT_DIR$/src/modules/security/securityRoute.js" />
+        <option value="$PROJECT_DIR$/src/modules/common/exception.js" />
+        <option value="$PROJECT_DIR$/src/modules/common/iresourceManager.js" />
+        <option value="$PROJECT_DIR$/src/modules/common/enum.js" />
+        <option value="$PROJECT_DIR$/src/modules/common/event.js" />
+        <option value="$PROJECT_DIR$/src/modules/common/enum.js.map" />
+        <option value="$PROJECT_DIR$/src/modules/common/resourceManager.js" />
+        <option value="$PROJECT_DIR$/src/modules/common/event.js.map" />
+        <option value="$PROJECT_DIR$/src/modules/common/baseModule.js" />
+        <option value="$PROJECT_DIR$/src/modules/common/commonModule.js" />
+        <option value="$PROJECT_DIR$/src/modules/common/exception.js.map" />
+        <option value="$PROJECT_DIR$/src/modules/common/index.js" />
+        <option value="$PROJECT_DIR$/src/modules/common/commonModule.js.map" />
+        <option value="$PROJECT_DIR$/src/modules/common/resourceManager.js.map" />
+        <option value="$PROJECT_DIR$/src/modules/common/index.js.map" />
+        <option value="$PROJECT_DIR$/src/modules/common/baseModule.js.map" />
+        <option value="$PROJECT_DIR$/src/modules/common/iresourceManager.js.map" />
+        <option value="$PROJECT_DIR$/src/modules/orderManagement/index.js.map" />
+        <option value="$PROJECT_DIR$/src/modules/orderManagement/index.js" />
+        <option value="$PROJECT_DIR$/src/modules/orderManagement/orderManagementModule.js" />
+        <option value="$PROJECT_DIR$/src/modules/orderManagement/orderManagementRoute.js.map" />
+        <option value="$PROJECT_DIR$/src/modules/orderManagement/orderManagementModule.js.map" />
+        <option value="$PROJECT_DIR$/src/modules/orderManagement/orderManagementRoute.js" />
+        <option value="$PROJECT_DIR$/src/modules/setting/index.js.map" />
+        <option value="$PROJECT_DIR$/src/modules/setting/index.js" />
+        <option value="$PROJECT_DIR$/src/modules/setting/settingModule.js" />
+        <option value="$PROJECT_DIR$/src/modules/setting/settingRoute.js" />
+        <option value="$PROJECT_DIR$/src/modules/setting/settingRoute.js.map" />
+        <option value="$PROJECT_DIR$/src/modules/setting/settingModule.js.map" />
+        <option value="$PROJECT_DIR$/src/modules/common/exception/validationError.js" />
+        <option value="$PROJECT_DIR$/src/modules/common/exception/validationError.js.map" />
+        <option value="$PROJECT_DIR$/src/modules/common/exception/enum.js" />
+        <option value="$PROJECT_DIR$/src/modules/common/exception/validationException.js.map" />
+        <option value="$PROJECT_DIR$/src/modules/common/exception/enum.js.map" />
+        <option value="$PROJECT_DIR$/src/modules/common/exception/validationException.js" />
+        <option value="$PROJECT_DIR$/src/modules/common/models/ui.js" />
+        <option value="$PROJECT_DIR$/src/modules/common/models/helperFacade.js" />
+        <option value="$PROJECT_DIR$/src/modules/common/models/promise.js.map" />
+        <option value="$PROJECT_DIR$/src/modules/common/models/ModuleConfig.js" />
+        <option value="$PROJECT_DIR$/src/modules/common/models/helperFacade.js.map" />
+        <option value="$PROJECT_DIR$/src/modules/common/models/imoduleConfig.js" />
+        <option value="$PROJECT_DIR$/src/modules/common/models/imoduleConfigItem.js.map" />
+        <option value="$PROJECT_DIR$/src/modules/common/models/baseModel.js" />
+        <option value="$PROJECT_DIR$/src/modules/common/models/imoduleConfig.js.map" />
+        <option value="$PROJECT_DIR$/src/modules/common/models/ui.js.map" />
+        <option value="$PROJECT_DIR$/src/modules/common/models/KeyNamePair.js.map" />
+        <option value="$PROJECT_DIR$/src/modules/common/models/ModuleConfig.js.map" />
+        <option value="$PROJECT_DIR$/src/modules/common/models/KeyNamePair.js" />
+        <option value="$PROJECT_DIR$/src/modules/common/models/imoduleConfigItem.js" />
+        <option value="$PROJECT_DIR$/src/modules/common/models/promise.js" />
+        <option value="$PROJECT_DIR$/src/modules/common/models/baseModel.js.map" />
+        <option value="$PROJECT_DIR$/src/modules/common/components/style.js" />
+        <option value="$PROJECT_DIR$/src/modules/common/components/script.js" />
+        <option value="$PROJECT_DIR$/src/modules/common/components/style.js.map" />
+        <option value="$PROJECT_DIR$/src/modules/common/components/validation.js.map" />
+        <option value="$PROJECT_DIR$/src/modules/common/components/validation.js" />
+        <option value="$PROJECT_DIR$/src/modules/common/components/script.js.map" />
+        <option value="$PROJECT_DIR$/src/modules/common/connectors/httpConnector.js" />
+        <option value="$PROJECT_DIR$/src/modules/common/connectors/httpConnector.js.map" />
+        <option value="$PROJECT_DIR$/src/modules/common/connectors/enum.js" />
+        <option value="$PROJECT_DIR$/src/modules/common/connectors/enum.js.map" />
+        <option value="$PROJECT_DIR$/src/modules/common/connectors/iconnector.js" />
+        <option value="$PROJECT_DIR$/src/modules/common/connectors/jsonHeaders.js" />
+        <option value="$PROJECT_DIR$/src/modules/common/connectors/jsonHeaders.js.map" />
+        <option value="$PROJECT_DIR$/src/modules/common/connectors/iconnector.js.map" />
+        <option value="$PROJECT_DIR$/src/modules/common/helpers/gcHelper.js" />
+        <option value="$PROJECT_DIR$/src/modules/common/helpers/routerHelper.js" />
+        <option value="$PROJECT_DIR$/src/modules/common/helpers/urlHelper.js" />
+        <option value="$PROJECT_DIR$/src/modules/common/helpers/objectHelper.js.map" />
+        <option value="$PROJECT_DIR$/src/modules/common/helpers/moduleHelper.js" />
+        <option value="$PROJECT_DIR$/src/modules/common/helpers/domHelper.js" />
+        <option value="$PROJECT_DIR$/src/modules/common/helpers/guidHelper.js.map" />
+        <option value="$PROJECT_DIR$/src/modules/common/helpers/gcHelper.js.map" />
+        <option value="$PROJECT_DIR$/src/modules/common/helpers/guidHelper.js" />
+        <option value="$PROJECT_DIR$/src/modules/common/helpers/routerHelper.js.map" />
+        <option value="$PROJECT_DIR$/src/modules/common/helpers/domHelper.js.map" />
+        <option value="$PROJECT_DIR$/src/modules/common/helpers/urlHelper.js.map" />
+        <option value="$PROJECT_DIR$/src/modules/common/helpers/userProfileHelper.js" />
+        <option value="$PROJECT_DIR$/src/modules/common/helpers/objectHelper.js" />
+        <option value="$PROJECT_DIR$/src/modules/common/helpers/userProfileHelper.js.map" />
+        <option value="$PROJECT_DIR$/src/modules/common/helpers/moduleHelper.js.map" />
+        <option value="$PROJECT_DIR$/src/modules/common/services/authService.js" />
+        <option value="$PROJECT_DIR$/src/modules/common/services/iauthService.js.map" />
+        <option value="$PROJECT_DIR$/src/modules/common/services/routeService.js.map" />
+        <option value="$PROJECT_DIR$/src/modules/common/services/irouteService.js.map" />
+        <option value="$PROJECT_DIR$/src/modules/common/services/iauthService.js" />
+        <option value="$PROJECT_DIR$/src/modules/common/services/authService.js.map" />
+        <option value="$PROJECT_DIR$/src/modules/common/services/irouteService.js" />
+        <option value="$PROJECT_DIR$/src/modules/common/services/baseService.js" />
+        <option value="$PROJECT_DIR$/src/modules/common/services/baseService.js.map" />
+        <option value="$PROJECT_DIR$/src/modules/common/services/routeService.js" />
+        <option value="$PROJECT_DIR$/src/modules/common/application/appHelper.js.map" />
+        <option value="$PROJECT_DIR$/src/modules/common/application/appHelper.js" />
+        <option value="$PROJECT_DIR$/src/modules/common/application/iappConfig.js" />
+        <option value="$PROJECT_DIR$/src/modules/common/application/iappConfig.js.map" />
+        <option value="$PROJECT_DIR$/src/modules/common/event/ieventManager.js" />
+        <option value="$PROJECT_DIR$/src/modules/common/event/eventManager.js" />
+        <option value="$PROJECT_DIR$/src/modules/common/event/ieventManager.js.map" />
+        <option value="$PROJECT_DIR$/src/modules/common/event/eventManager.js.map" />
+        <option value="$PROJECT_DIR$/src/modules/common/ioc/iocHelper.js" />
+        <option value="$PROJECT_DIR$/src/modules/common/ioc/iocHelper.js.map" />
+        <option value="$PROJECT_DIR$/src/modules/common/ioc/enum.js" />
+        <option value="$PROJECT_DIR$/src/modules/common/ioc/iinjector.js.map" />
+        <option value="$PROJECT_DIR$/src/modules/common/ioc/enum.js.map" />
+        <option value="$PROJECT_DIR$/src/modules/common/ioc/iinjector.js" />
+        <option value="$PROJECT_DIR$/src/modules/common/ioc/iocConfig.js" />
+        <option value="$PROJECT_DIR$/src/modules/common/ioc/iocFactory.js" />
+        <option value="$PROJECT_DIR$/src/modules/common/ioc/iocFactory.js.map" />
+        <option value="$PROJECT_DIR$/src/modules/common/ioc/iocConfig.js.map" />
+        <option value="$PROJECT_DIR$/src/modules/common/ioc/builder/transientObjectBuilder.js" />
+        <option value="$PROJECT_DIR$/src/modules/common/ioc/builder/singletonObjectBuilder.js" />
+        <option value="$PROJECT_DIR$/src/modules/common/ioc/builder/iobjectBuilder.js.map" />
+        <option value="$PROJECT_DIR$/src/modules/common/ioc/builder/iobjectBuilder.js" />
+        <option value="$PROJECT_DIR$/src/modules/common/ioc/builder/transientObjectBuilder.js.map" />
+        <option value="$PROJECT_DIR$/src/modules/common/ioc/builder/singletonObjectBuilder.js.map" />
+        <option value="$PROJECT_DIR$/src/modules/common/models/ui/enum.js.map" />
+        <option value="$PROJECT_DIR$/src/modules/common/models/ui/enum.js" />
+        <option value="$PROJECT_DIR$/src/modules/common/models/ui/pageAction.js" />
+        <option value="$PROJECT_DIR$/src/modules/common/models/ui/pageDropdownAction.js.map" />
+        <option value="$PROJECT_DIR$/src/modules/common/models/ui/basePage.js" />
+        <option value="$PROJECT_DIR$/src/modules/common/models/ui/baseComponent.js.map" />
+        <option value="$PROJECT_DIR$/src/modules/common/models/ui/baseLayout.js" />
+        <option value="$PROJECT_DIR$/src/modules/common/models/ui/baseControl.js.map" />
+        <option value="$PROJECT_DIR$/src/modules/common/models/ui/pageAction.js.map" />
+        <option value="$PROJECT_DIR$/src/modules/common/models/ui/pageDropdownAction.js" />
+        <option value="$PROJECT_DIR$/src/modules/common/models/ui/basePage.js.map" />
+        <option value="$PROJECT_DIR$/src/modules/common/models/ui/baseControl.js" />
+        <option value="$PROJECT_DIR$/src/modules/common/models/ui/baseLayout.js.map" />
+        <option value="$PROJECT_DIR$/src/modules/common/models/ui/baseComponent.js" />
+        <option value="$PROJECT_DIR$/src/modules/common/models/list/hashtable.js" />
+        <option value="$PROJECT_DIR$/src/modules/common/models/list/hashtable.js.map" />
+        <option value="$PROJECT_DIR$/src/modules/common/models/menu/appMenuItem.js.map" />
+        <option value="$PROJECT_DIR$/src/modules/common/models/menu/appMenuItem.js" />
+      </list>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/api/contentTypes.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/permission_0.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+  </component>
+</project>
